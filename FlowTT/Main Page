@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowTT</title>
+  <link rel="stylesheet" href="Flow.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Navbar start  -->
+  <header>
+    <div class="navbar">
+      <div class="nav-logo">
+        <div class="logo">
+          <img class="img1" src="Images/flowtt_logo.png.webp" alt="FlowTT logo">
+        </div>
+      </div>
+
+      <div class="nav-lang">
+        <i class="fa fa-language"></i>
+        <select>
+          <option>Englsih</option>
+          <option>हिंदी</option>
+        </select>
+      </div>
+
+      <button class="sign-button">
+        Sign In
+      </button>
+    </div>
+  </header>
+
+  <!-- Main parts start -->
+  <div class="Paragraph">
+    <p class="Unlimited">Unlimited movies, TV shows and more</p>
+    <P>Starts at ₹149. Cancel anytime</P>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+  </div>
+
+  <!-- Input email box -->
+  <div class="email-box">
+    <input type="text" placeholder="Email address">
+  </div>
+
+  <!--Get started button  -->
+  <div class="started">
+    <button>
+      Get Started
+      <i class="fa-solid fa-angle-right"></i>
+    </button>
+  </div>
+
+  <!-- More reasons to join part -->
+  <div class="reason">
+    <h2>
+      More reason to join
+    </h2>
+  </div>
+
+  <!-- Enjoy section -->
+  <div class="enjoy">
+    <h2>Enjoy on your TV</h2>
+    <h3>Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+  </div>
+
+  <!-- Download Section -->
+  <div class="Down">
+    <h2>Download your shows to watch offline</h2>
+    <h3>Save your favourites easily and always have something to watch.</h3>
+  </div>
+
+  <!-- Watch section -->
+  <div class="watch">
+    <h2>Watch everywhere</h2>
+    <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</h3>
+  </div>
+
+  <!-- Create Section -->
+  <div class="create">
+    <h2>Create profile for kids</h2>
+    <h3>Send kids on adventures with their favourite characters in a space made just for them --
+      free with your membership.
+    </h3>
+  </div>
+
+  <!-- Frequently asked Questions Part -->
+  <div class="ques">
+    <h2>Frequently Asked Questions</h2>
+  </div>
+
+  <!-- what is flowtt -->
+  <div class="flowtt">
+    <h3>What is FlowTT?</h3>
+    <h3>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+      documentaries and more - on thousands of internet-connected devices.
+      <br>
+      <br>
+      You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's
+      always something new to discover, and new TV shows and movies are added every week!
+    </h3>
+  </div>
+
+  <!-- Where can i watch? -->
+  <div class="where">
+    <h3>Where can i watch?</h3>
+    <h3>Watch anywhere, anytime. Sign in with your FlowTT account to watch instantly on the web at FlowTT.com from your
+      personal computer or on any internet-connected device that offers the FlowTT app, including smart TVs,
+      smartphones, tablets, streaming media players and game consoles.
+      <br>
+      <br>
+      You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the
+      go and without an internet connection. Take FlowTT with you anywhere.
+    </h3>
+  </div>
+
+  <!-- Cancel -->
+  <div class="cancel">
+    <h3>How do i cancel?</h3>
+    <h3>FlowTT is flexible. There are no annoying contracts and no commitments. You can easily cancel your account
+      online in two clicks. There are no cancellation fees - start or stop your account anytime.
+    </h3>
+  </div>
+
+  <!-- What can i watch on FlowTT? -->
+  <div class="stream">
+    <h3>What can i watch on FlowTT?</h3>
+    <h3>FlowTT has an extensive library of feature films, documentaries, TV shows, anime, award-winning FlowTT
+      originals, and more. Watch as much as you want, anytime you want.
+    </h3>
+  </div>
+
+  <!-- Kids -->
+  <div class="kids">
+    <h3>Is FlowTT good for kids?</h3>
+    <h3>The FlowTT Kids experience is included in your membership to give parents control while kids enjoy
+      family-friendly TV shows and films in their own space.
+      <br>
+      <br>
+      Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids
+      can watch and block specific titles you don't want kids to see.
+    </h3>
+  </div>
+
+  <!-- Restart your membership -->
+  <div class="membership">
+    <h3>Ready to watch? Enter your email to create or restart your membership.
+    </h3>
+  </div>
+
+  <!-- Input email Box 2 -->
+  <div class="email-box2">
+    <input type="text" placeholder="Email address">
+  </div>
+
+  <!--Get started button 2  -->
+  <div class="started2">
+    <button>
+      Get Started
+      <i class="fa-solid fa-angle-right"></i>
+    </button>
+  </div>
+
+  <!-- Contact cust service email -->
+   <div class="cust">
+    <h4>Questions? Mail **********</h4>
+   </div>
+
+   <!-- Footer of website -->
+    <div class="footer">
+      <ul><li>FAQ</li></ul>
+      <ul><li>Account</li></ul>
+      <ul><li>Investor Relations</li></ul>
+      <ul><li>Ways to watch</li></ul>
+      <ul><li>Privacy</li></ul>
+      <ul><li>Corporate Information</li></ul>
+      <ul><li>Speed Test</li></ul>
+      <ul><li>Only on FlowTT</li></ul>
+      <ul><li>Help Centre</li></ul>
+      <ul><li>Media Centre</li></ul>
+      <ul><li>Jobs</li></ul>
+      <ul><li>Terms of Use</li></ul>
+      <ul><li>Cookie Preferences</li></ul>
+      <ul><li>Contact Us</li></ul>
+      <ul><li>Legal Notice</li></ul>
+    </div>
+
+
+    <!-- language change second  -->
+    <div class="lang2">
+      <i class="fa fa-language"></i>
+      <select>
+        <option>Englsih</option>
+        <option>हिंदी</option>
+      </select>
+    </div>
+
+    <!-- FlowTT last name -->
+    <div class="flowtt-india">
+      <h4>FlowTT India</h4>
+    </div>
+
+</body>
+</html>
