@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: black;
+    height: auto; 
+    width: 100vw;
+    overflow-x: hidden; 
+}
+
+
+  
+  header {
+    height: 15vh;
+  }
+  
+  .loginpage_body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+    background-color: black;
+  }
+  
+  .loginpage_body video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 99vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    filter: brightness(0.5); 
+  }
+  
+.loginpage_video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+  .logo {
+    height: 160px;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 1vh;
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login {
+    min-height: 80vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 48px 68px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    z-index: 1;
+}
+  
+  .sign {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 9vh;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  .loginpage_email,
+  .loginpage_pass {
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    color: #777a7e;
+    background: transparent;
+    border: 2px solid #777a7e;
+    padding-left: 8px;
+  }
+  
+  .loginpage_email input,
+  .loginpage_pass input {
+    width: 100%;
+    background: transparent;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+    font-size: 1.1rem;
+    color: #777a7e;
+  }
+  
+  .loginpage_email {
+    margin-bottom: 12px;
+  }
+  
+  .loginpage_pass {
+    margin-top: 12px;
+  }
+  
+  /* Button Styles */
+  .loginpage_button {
+    width: 100%;
+    height: 6vh;
+    margin-top: 12px;
+    background-color: #a79257;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .loginpage_button:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: #ab9456 0px 0px 0px 2px, #ab9456 0px 4px 6px -1px, #ab9456 0px 1px 0px inset;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* OR Divider */
+  .or {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 12px;
+    font-weight: 500;
+    color: #777a7e;
+  }
+  
+  /* Secondary Button */
+  .btns {
+    width: 100%;
+    height: 6vh;
+    margin-top: 12px;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .btns:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(98, 99, 114, 0.816) 0px 3px 8px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Forgot Password */
+  .forgot {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+  
+  .forgot:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(164, 160, 160);
+  }
+  
+  /* Remember Me Checkbox */
+  .check {
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+  
+  /* New User Link */
+  .NewUp {
+    display: flex;
+    gap: 5px;
+    margin-top: 12px;
+  }
+  
+  .new {
+    color: rgb(144, 140, 140);
+  }
+  
+  .up {
+    color: rgb(255, 255, 255);
+  }
+  
+  .up:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+ /* Footer Styles */
+ .footer {
+    color: #ffffff;
+    padding: 40px 60px;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .extra {
+    display: flex;
+    gap: 2px;
+    margin-top: 8px;
+  }
+  
+  .Qu {
+    margin-left: 10vw;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+  }
+  
+  .em {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+  }
+  
+  .em:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .foot {
+    color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 0;
+    column-gap: 20px;
+    row-gap: 20px;
+    font-size: 1rem;
+    margin-top: 16px;
+  }
+  
+  ul li {
+    list-style: none;
+    text-decoration: underline;
+  }
+  
+  ul li:hover {
+    cursor: pointer;
+  }
+  
+  /* Language Select */
+  .sel {
+    display: flex;
+    margin-right: 2vh;
+    border-radius: .3rem;
+    padding-left: 2px;
+    word-spacing: 1px;
+    width: 16vh;
+    background: transparent;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    border: 1px solid #5f5e5e;
+  }
+  
+  .select {
+    background: none;
+    color: white;
+    font-size: 1.1rem;
+    width: 100px;
+    height: 32px;
+    padding-bottom: 2px;
+    outline: none;
+    border: 0;
+  }
+  
+option{
+    background-color: black;
+    color: white;
+}
+
+  .select:hover {
+    cursor: pointer;
+  }
+  
+  .sel:hover {
+    cursor: pointer;
+  }
+  
+  /* Responsiveness for Footer */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px 10px;
+      margin-top: 5vh; /* Adjust the space before footer on smaller screens */
+    }
+  
+    .foot {
+      grid-template-columns: 1fr 1fr; /* Stack the items on smaller screens */
+      padding: 10px 0;
+    }
+  
+    .sel {
+      margin-left: 0;
+      width: 50%;
+    }
+  }
+  

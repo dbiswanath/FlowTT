@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #afbcc9;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  
+  .navbar .btn-danger {
+    margin-left: 20px;
+  }
+  
+
+  .display-4 {
+    color: #4f46e5;
+    font-weight: 400;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    background-color: rgb(222, 203, 203);
+  }
+  
+  table th {
+    background-color: #1f2937;
+    color: rgb(145, 144, 144);
+  }
+  
+  table td, table th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    border: none;
+    color: #000000;
+  }
+  
+  .btn-outline-primary {
+    border-color: #3b82f6;
+    color: #000000;
+    font-weight: 400;
+    background-color: blue;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: blue;
+    color: rgb(255, 248, 248);
+  }
+  
+
+  .form-select {
+    max-width: 300px;
+  }
+  
+
+  .login-form input {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .table{
+    --bs-table-bg: #e2c0c0;
+  }
